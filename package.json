@@ -1,8 +1,8 @@
 {
-  "name": "@civ-clone/base-unit-action-meet-with-king",
+  "name": "@civ-clone/base-unit-action-meet-with-leader",
   "version": "0.1.0",
-  "main": "MeetWithKing.js",
-  "repository": "git@github.com:civ-clone/base-unit-action-meet-with-king.git",
+  "main": "MeetWithLeader.js",
+  "repository": "git@github.com:civ-clone/base-unit-action-meet-with-leader.git",
   "keywords": [
     "typescript",
     "civilization"
@@ -22,6 +22,7 @@
     "typescript": "^4.9.5"
   },
   "dependencies": {
+    "@civ-clone/core-data-object": "^0.1.19",
     "@civ-clone/core-player": "^0.1.8",
     "@civ-clone/core-rule": "^0.1.6",
     "@civ-clone/core-unit": "^0.1.25",
